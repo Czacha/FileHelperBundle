@@ -1,0 +1,15 @@
+services:
+    _defaults:
+        autowire: true
+        autoconfigure: false
+        public: false
+
+    ## Simple Image Helper
+    OW\FileHelperBundle\Helper\SimpleImageHelper:
+        tags:
+            - { name: 'file_helper.simple_image' }
+
+    ## Simple Image Helper
+    OW\FileHelperBundle\Helper\SimpleImageHelper2:
+        tags:
+            - { name: 'file_helper.simple_imagew' }

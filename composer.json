@@ -1,0 +1,20 @@
+{
+  "name": "ow/file-helper-bundle",
+  "type": "symfony-bundle",
+  "description": "Bundle to move files to specified path.",
+  "keywords": ["file", "helper"],
+  "authors": [
+    {
+      "name": "Damian Rosiak",
+      "email": "drosiak.priv@gmail.com"
+    }
+  ],
+  "require": {
+    "php": "^5.6|^7.0|^7.1|^7.2",
+    "symfony/framework-bundle": "~3.4|~4.0",
+    "symfony/yaml": "*"
+  },
+  "autoload": {
+    "psr-4": { "OW\\FileHelperBundle\\": "" }
+  }
+}
